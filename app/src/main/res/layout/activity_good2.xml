@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".good2">
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" android:gravity="center">
+
+    <ImageView android:layout_height="0dp" android:layout_width="match_parent" tools:ignore="ContentDescription" app:srcCompat="@drawable/m2" android:scaleType="fitXY" android:layout_weight="1.2" android:id="@+id/imageView3"/>
+
+    <ImageView android:layout_height="0dp" android:layout_width="wrap_content" tools:ignore="ContentDescription" app:srcCompat="@drawable/good" android:scaleType="fitXY" android:layout_weight="8" android:id="@+id/imageView4" tools:layout_editor_absoluteY="76dp" tools:layout_editor_absoluteX="16dp"/>
+
+    <ImageButton android:layout_height="0dp" android:layout_width="wrap_content" tools:ignore="ContentDescription" app:srcCompat="@drawable/toselect" android:scaleType="fitCenter" android:layout_weight="1" android:id="@+id/toselectButton" android:background="@android:color/background_light"/>
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

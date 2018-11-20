@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".array6">
+    <LinearLayout android:layout_height="0dp" android:layout_width="0dp" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent" android:orientation="vertical" android:id="@+id/linearLayout6">
+
+    <ImageView android:layout_height="0dp" android:layout_width="match_parent" android:id="@+id/imageView3" tools:ignore="ContentDescription" app:srcCompat="@drawable/arraytab" android:scaleType="fitXY" android:layout_weight="1.2"/>
+
+    <ImageView android:layout_height="0dp" android:layout_width="wrap_content" android:id="@+id/imageView4" tools:ignore="ContentDescription" app:srcCompat="@drawable/p6" android:layout_weight="3" android:background="@android:color/background_light"/>
+
+
+    <LinearLayout android:layout_height="0dp" android:layout_width="match_parent" android:orientation="horizontal" android:layout_weight="2">
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="0dp" android:id="@+id/imageView5" tools:ignore="ContentDescription" app:srcCompat="@drawable/a6" android:scaleType="fitCenter" android:layout_weight="5" android:background="@android:color/background_light"/>
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="0dp" android:id="@+id/imageButton14" app:srcCompat="@drawable/answersound" android:scaleType="fitCenter" android:layout_weight="1" android:background="@android:color/background_light"/>
+
+</LinearLayout>
+
+    <ImageButton android:layout_height="0dp" android:layout_width="match_parent" android:id="@+id/imageButton8" tools:ignore="ContentDescription" app:srcCompat="@drawable/match" android:scaleType="fitCenter" android:layout_weight="1" android:background="@android:color/white"/>
+
+    <ImageView android:layout_height="0dp" android:layout_width="match_parent" android:id="@+id/imageView6" tools:ignore="ContentDescription" app:srcCompat="@android:color/background_light" android:scaleType="fitCenter" android:layout_weight="2" android:background="@android:color/background_light"/>
+
+
+    <LinearLayout android:layout_height="0dp" android:layout_width="match_parent" android:orientation="horizontal" android:layout_weight="1">
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="0dp" android:id="@+id/toselectButton" tools:ignore="ContentDescription" app:srcCompat="@drawable/toselect" android:scaleType="fitXY" android:layout_weight="5" android:background="@android:color/white"/>
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="0dp" android:id="@+id/okayButton" tools:ignore="ContentDescription" app:srcCompat="@drawable/okay" android:scaleType="fitXY" android:layout_weight="2" android:background="@android:color/background_light"/>
+
+</LinearLayout>
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

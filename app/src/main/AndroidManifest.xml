@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="more.please.want.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="두 문장을 합해 복문 만들기"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".array1" />
+        <activity android:name=".intend1" />
+        <activity android:name=".select1" />
+        <activity android:name=".condition1" />
+        <activity android:name=".cause1" />
+        <activity android:name=".contrast1" />
+        <activity android:name=".array2" />
+        <activity android:name=".cause2" />
+        <activity android:name=".condition2" />
+        <activity android:name=".contrast2" />
+        <activity android:name=".intend2" />
+        <activity android:name=".select2" />
+        <activity android:name=".array3" />
+        <activity android:name=".cause3" />
+        <activity android:name=".condition3" />
+        <activity android:name=".contrast3" />
+        <activity android:name=".intend3" />
+        <activity android:name=".select3" />
+        <activity android:name=".array4" />
+        <activity android:name=".cause4" />
+        <activity android:name=".condition4" />
+        <activity android:name=".contrast4" />
+        <activity android:name=".intend4" />
+        <activity android:name=".select4" />
+        <activity android:name=".array5" />
+        <activity android:name=".cause5" />
+        <activity android:name=".condition5" />
+        <activity android:name=".contrast5" />
+        <activity android:name=".intend5" />
+        <activity android:name=".select5" />
+        <activity android:name=".array6" />
+        <activity android:name=".cause6" />
+        <activity android:name=".condition6" />
+        <activity android:name=".contrast6" />
+        <activity android:name=".intend6" />
+        <activity android:name=".select6" />
+        <activity android:name=".array7" />
+        <activity android:name=".cause7" />
+        <activity android:name=".condition7" />
+        <activity android:name=".contrast7" />
+        <activity android:name=".intend7" />
+        <activity android:name=".select7" />
+        <activity android:name=".array8" />
+        <activity android:name=".cause8" />
+        <activity android:name=".condition8" />
+        <activity android:name=".contrast8" />
+        <activity android:name=".intend8" />
+        <activity android:name=".select8" />
+        <activity android:name=".array9" />
+        <activity android:name=".cause9" />
+        <activity android:name=".condition9" />
+        <activity android:name=".contrast9" />
+        <activity android:name=".intend9" />
+        <activity android:name=".select9" />
+        <activity android:name=".array10" />
+        <activity android:name=".cause10" />
+        <activity android:name=".condition10" />
+        <activity android:name=".contrast10" />
+        <activity android:name=".intend10" />
+        <activity android:name=".select10" />
+        <activity android:name=".good1" />
+        <activity android:name=".good2" />
+        <activity android:name=".good3" />
+        <activity android:name=".good4" />
+        <activity android:name=".good5" />
+        <activity android:name=".good6"></activity>
+    </application>
+
+</manifest>

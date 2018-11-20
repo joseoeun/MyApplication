@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intend3">
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <ImageView android:layout_height="0dp" android:layout_width="match_parent" tools:ignore="ContentDescription" app:srcCompat="@drawable/m3" android:scaleType="fitXY" android:layout_weight="1.2" android:id="@+id/imageView3"/>
+
+    <ImageView android:layout_height="0dp" android:layout_width="wrap_content" tools:ignore="ContentDescription" app:srcCompat="@drawable/p53" android:scaleType="fitXY" android:layout_weight="2.5" android:id="@+id/imageView4" tools:layout_editor_absoluteY="76dp" tools:layout_editor_absoluteX="16dp"/>
+
+
+    <LinearLayout android:layout_height="0dp" android:layout_width="match_parent" android:orientation="horizontal" android:layout_weight="2">
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="0dp" tools:ignore="ContentDescription" app:srcCompat="@drawable/i23" android:scaleType="fitCenter" android:layout_weight="5" android:id="@+id/imageView5" tools:layout_editor_absoluteY="269dp" tools:layout_editor_absoluteX="0dp"/>
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="0dp" app:srcCompat="@drawable/answersound" android:scaleType="fitEnd" android:layout_weight="1" android:id="@+id/imageButton14" android:background="@android:color/background_light"/>
+
+</LinearLayout>
+
+    <ImageButton android:layout_height="0dp" android:layout_width="match_parent" tools:ignore="ContentDescription" app:srcCompat="@drawable/blank" android:scaleType="fitXY" android:layout_weight="0.8" android:id="@+id/imageButton8" tools:layout_editor_absoluteY="376dp" tools:layout_editor_absoluteX="0dp" android:background="@android:color/white"/>
+
+    <ImageView android:layout_height="0dp" android:layout_width="match_parent" app:srcCompat="@android:color/background_light" android:scaleType="fitCenter" android:layout_weight="1.8" android:id="@+id/imageView7" android:background="@android:color/background_light"/>
+
+
+    <LinearLayout android:layout_height="0dp" android:layout_width="match_parent" android:orientation="horizontal" android:layout_weight="0.9">
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="0dp" app:srcCompat="@android:color/background_light" android:scaleType="fitCenter" android:layout_weight="1" android:id="@+id/imageButton11" android:background="@android:color/background_light"/>
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="0dp" app:srcCompat="@android:color/background_light" android:scaleType="fitCenter" android:layout_weight="1" android:id="@+id/imageButton12" android:background="@android:color/background_light"/>
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="0dp" app:srcCompat="@android:color/background_light" android:scaleType="fitCenter" android:layout_weight="1" android:id="@+id/imageButton13" android:background="@android:color/background_light"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="0dp" android:layout_width="match_parent" android:orientation="horizontal" android:layout_weight="1">
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="0dp" tools:ignore="ContentDescription" app:srcCompat="@drawable/back" android:scaleType="fitCenter" android:layout_weight="1.5" android:id="@+id/backButton" android:background="@android:color/background_light"/>
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="0dp" tools:ignore="ContentDescription" app:srcCompat="@drawable/toselect" android:scaleType="fitXY" android:layout_weight="4" android:id="@+id/toselectButton" android:background="@android:color/background_light"/>
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="0dp" tools:ignore="ContentDescription" app:srcCompat="@android:color/background_light" android:scaleType="fitCenter" android:layout_weight="1.5" android:id="@+id/nextButton" tools:layout_editor_absoluteY="507dp" tools:layout_editor_absoluteX="392dp" android:background="@android:color/background_light"/>
+
+</LinearLayout>
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>
